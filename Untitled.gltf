@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v5.1.18",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "path1",
+      "scale": [
+        0.9841942191123962,
+        0.9841942191123962,
+        0.9841942191123962
+      ],
+      "translation": [
+        -0.3361429274082184,
+        0.07541908323764801,
+        0.3153463900089264
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "SVGMat"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "path1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 19879,
+      "max": [
+        0.41455966234207153,
+        0.007800000254064798,
+        -0.14948871731758118
+      ],
+      "min": [
+        0.1392565220594406,
+        -0.007800000254064798,
+        -0.44890549778938293
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 19879,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 19879,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 100320,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 238548,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 238548,
+      "byteOffset": 238548,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 159032,
+      "byteOffset": 477096,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 200640,
+      "byteOffset": 636128,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Untitled_data.bin",
+      "byteLength": 836768
+    }
+  ]
+}
